@@ -44,6 +44,8 @@ index:
 npx skills add shufong/scan-qr-code
 ```
 
+Directory page: [scan-qr-code on skills.sh](https://skills.sh/shufong/scan-qr-code/scan-qr-code)
+
 Once indexed, users can look for it with:
 
 ```bash
