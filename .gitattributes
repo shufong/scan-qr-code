@@ -1,0 +1,2 @@
+* text=auto eol=lf
+scripts/vendor/** linguist-vendored=true -diff -whitespace

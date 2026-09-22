@@ -1,0 +1,16 @@
+{
+  "name": "scan_qr",
+  "description": "Decodes a QR code from a local image file path and returns the extracted URL or text string natively without downloading packages.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "image_path": {
+        "type": "string",
+        "description": "The absolute or relative system path to the image containing a QR code."
+      }
+    },
+    "required": [
+      "image_path"
+    ]
+  }
+}

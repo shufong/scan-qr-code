@@ -1,0 +1,4 @@
+interface:
+  display_name: "QR Code Scanner"
+  short_description: "Decode QR images into exact destinations"
+  default_prompt: "Use $scan-qr-code to decode the QR code in this attached image."
