@@ -18,11 +18,45 @@ Install globally for Codex without prompts:
 npx skills add shufong/scan-qr-code -g -a codex -y
 ```
 
+Install globally for Claude Code without prompts:
+
+```bash
+npx skills add shufong/scan-qr-code -g -a claude-code -y
+```
+
 Preview the discovered skill before installing:
 
 ```bash
 npx skills add shufong/scan-qr-code --list
 ```
+
+The `skills` CLI also supports project-local installation by omitting `-g`. For
+Claude Code that installs to `.claude/skills/`; for Codex it installs to
+`.agents/skills/`.
+
+## Discovery
+
+The repository can always be installed directly from its public GitHub address,
+even before it appears in the separate [skills.sh](https://skills.sh/) search
+index:
+
+```bash
+npx skills add shufong/scan-qr-code
+```
+
+Once indexed, users can look for it with:
+
+```bash
+npx skills find "qr code"
+npx skills find "qr code" --owner shufong
+```
+
+Traditional website SEO is not required for installation. Clear naming and
+natural-language metadata still help people find and evaluate the repository on
+GitHub and in skill search: this project uses a descriptive repository name,
+an explicit `SKILL.md` description, relevant GitHub topics, and a task-focused
+README. Search-index inclusion is managed separately by skills.sh and may lag
+behind a working direct installation.
 
 ## Use
 
